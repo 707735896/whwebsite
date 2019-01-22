@@ -1,0 +1,9 @@
+.section .job-logo {display:inline-block;padding:0; width:1170px; min-height:100px; background:#fff; border:1px solid #ccc;}
+
+.section .job-desc {margin-top:10px; padding:20px 15px; width:1170px; min-height:950px; background:#fff; border:1px solid #ccc;}
+
+.section .job-desc .title{color:#fcc534; height:40px;line-height:40px; text-indent:20px; font-size:20px; border-bottom:1px dashed #ccc; }
+.section .job-desc .title a{color:#fcc534; text-decoration:none;font-size:14px;}
+.section .job-desc .title a:hover{color:#fff; background:#fcc534; text-decoration:none;}
+.section .job-desc .info{color:#fcc534; height:35px;line-height:35px; text-indent:20px; font-size:16px;}
+.section .job-desc .content{margin:5px 20px; padding:20px; background:#fcc534; color:#fff}

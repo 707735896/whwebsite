@@ -1,0 +1,22 @@
+.section .about {padding:40px 65px; width:1170px; height:2650px; background:#fff; border:1px solid #ccc;}
+
+.section .about .left{float:left;}
+.section .about .right{float:right;}
+
+.section .about .about-video{margin-bottom:20px; width:1040px; height:480px; background:#5EBBEB;}
+.section .about .about-video .video{float:left; width:640px; height:480px; padding:20px;}
+.section .about .about-video .desc{float:right; width:400px; height:480px;}
+
+.section .about .about-desc{margin-top:30px; width:1040px; height:600px;}
+.section .about .about-desc .desc{float:left; width:355px; height:600px;}
+.section .about .about-desc .images{float:right; width:675px; height:600px;}
+
+.section .about .about-desc .images .line1{width:675px; height:306px;}
+.section .about .about-desc .images .line2{margin-top:10px; width:675px; height:280px;}
+.section .about .about-desc .images .line3{margin-top:10px; width:675px; height:150px;}
+
+.section .about .about-contact{margin-top:10px; width:1040px; height:244px;}
+.section .about .about-contact .contact{float:left; width:355px; height:244px;}
+.section .about .about-contact .images{float:right; width:675px; height:244px;}
+
+.section .about .about-timeline{margin-top:10px; width:1040px; height:196px;}
