@@ -50,9 +50,10 @@ a:hover {
 }
 
 .header .top-nav {
-	float: right;
-	height: 30px;
+	margin-left: 60%;
+	color: #ffffff;
 }
+
 
 .header .top-nav a {
 	color: #fff;
