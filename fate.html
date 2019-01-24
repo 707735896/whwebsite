@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>首页 - 两层小楼社交概念店</title>
+		<title>缘分墙 - 两层小楼社交概念店</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/png" href="images/favicon.png">
@@ -11,7 +11,7 @@
 		<meta name="baidu-site-verification" content="Y0rv9JuFRV" />
 		<link href="css/font-awesome.min.css" rel="stylesheet">
 		<link href="css/flexslider.css" rel="stylesheet">
-		<link href="css/index.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -27,7 +27,7 @@
 					<div class="nav-left">
 						<ul class="menu">
 							<li>
-								<a href="index.html" class="active">首页</a>
+								<a href="index.html">首页</a>
 							</li>
 							<li>
 								<a href="about.html">小楼介绍</a>
@@ -36,7 +36,7 @@
 								<a href="wish.html">愿望墙</a>
 							</li>
 							<li>
-								<a href="fate.html">缘分墙</a>
+								<a href="fate.html" class="active">缘分墙</a>
 							</li>
 							<li>
 								<a href="activity.html">小楼活动</a>
@@ -58,43 +58,30 @@
 		<div class="flexslider">
 			<ul class="slides">
 				<li>
-					<img src="images/1.jpg" height="500" />
+					<img src="images/b673afeb3dc11980c9a5d900bed6880.jpg" height="500" />
 				</li>
 				<li>
-					<img src="images/2.jpg" height="500" />
+					<img src="images/fb07c4de8cdf82c8ec718673ad29a50.jpg" height="500" />
 				</li>
-				<li>
-					<img src="images/3.jpg" height="500" />
-				</li>
-				<li>
-					<img src="images/4.jpg" height="500" />
-				</li>
-
 			</ul>
 		</div>
 
 		<div class="section">
 			<div class="container">
-				<div class="newshop">
-					<div class="title"><span>门店信息</span></div>
-					<div class="shop">
-						<div class="item">
-							<a href="shop.html">
-								<img src="images/pjl.jpg">
-								<span>两层小楼社交概念店（平江路店）</span>
-							</a>
-						</div>
-						<div class="item">
-							<a href="shop.html">
-								<img src="images/tll.jpg">
-								<span>两层小楼社交概念店（天灵路店）</span>
-							</a>
-						</div>
-					</div>
+				<div class="context">
+					<br>—
+					<br>主动一点点 就会有故事
+					<br>有时候世界很大，大得一辈子都无法相遇；
+					<br>有时候世界很小，小得种种缘分让我们相识；
+					<br>而「缘分瓶」就是为了让世界变得很小，让我们相识。
+					<br>请将「缘分瓶」放在您生日的那一格
+					<br>等着你的意中人/有缘人来取走，
+					<br>缘分会牵引着你们在冥冥之中相识。
+					<br><br>我们的目标：每年帮助5200+人脱单。
 				</div>
 			</div>
 		</div>
-		<div class="section-down"></div>
+
 		<div class="footer">
 			<div class="container">
 				<div class="media">
@@ -137,14 +124,6 @@
 		<script src="js/jquery.cart.js" type="text/javascript"></script>
 		<script src="js/jquery.flexslider.min.js"></script>
 		<script type="text/javascript">
-			function showgoods(catid) {
-				$('.newgoods .catalog .nav li').removeClass('current');
-				$('.newgoods .goods').hide();
-
-				$('.newgoods .catalog .nav #goodscat_' + catid).addClass('current');
-				$('.newgoods #goods_' + catid).show();
-			}
-
 			$(window).load(function() {
 
 				$('.weixin_qrcode').hover(function() {

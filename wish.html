@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>首页 - 两层小楼社交概念店</title>
+		<title>愿望墙 - 两层小楼社交概念店</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/png" href="images/favicon.png">
@@ -11,7 +11,7 @@
 		<meta name="baidu-site-verification" content="Y0rv9JuFRV" />
 		<link href="css/font-awesome.min.css" rel="stylesheet">
 		<link href="css/flexslider.css" rel="stylesheet">
-		<link href="css/index.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -27,13 +27,13 @@
 					<div class="nav-left">
 						<ul class="menu">
 							<li>
-								<a href="index.html" class="active">首页</a>
+								<a href="index.html">首页</a>
 							</li>
 							<li>
 								<a href="about.html">小楼介绍</a>
 							</li>
 							<li>
-								<a href="wish.html">愿望墙</a>
+								<a href="wish.html" class="active">愿望墙</a>
 							</li>
 							<li>
 								<a href="fate.html">缘分墙</a>
@@ -58,43 +58,30 @@
 		<div class="flexslider">
 			<ul class="slides">
 				<li>
-					<img src="images/1.jpg" height="500" />
+					<img src="images/5df9c93db81dbf70a4364caa4552e7c.jpg" height="500" />
 				</li>
 				<li>
-					<img src="images/2.jpg" height="500" />
+					<img src="images/6747398088d6ae911d4149bb2bf07cb.jpg" height="500" />
 				</li>
-				<li>
-					<img src="images/3.jpg" height="500" />
-				</li>
-				<li>
-					<img src="images/4.jpg" height="500" />
-				</li>
-
 			</ul>
 		</div>
 
 		<div class="section">
 			<div class="container">
-				<div class="newshop">
-					<div class="title"><span>门店信息</span></div>
-					<div class="shop">
-						<div class="item">
-							<a href="shop.html">
-								<img src="images/pjl.jpg">
-								<span>两层小楼社交概念店（平江路店）</span>
-							</a>
-						</div>
-						<div class="item">
-							<a href="shop.html">
-								<img src="images/tll.jpg">
-								<span>两层小楼社交概念店（天灵路店）</span>
-							</a>
-						</div>
-					</div>
+				<div class="context">
+					<br>心之所愿 无所不成
+					<br>—
+					<br>有时候，「愿望」是对全世界的郑重宣言；
+					<br>有时候，「愿望」是朋友间的悄悄话；
+					<br>有时候，「愿望」是拥抱自己内心的孩童。
+					<br>而「愿望瓶」就是最好的见证，见证我们如愿以偿。
+					<br>你的「愿望」可以关于梦想、关于祝福、关于思念、关于问候…可以给亲人、爱人、朋友、同学，甚至只是给自己。
+					<br>「愿望瓶」可以投放在任意一格，在明年的同一天，我们会准时帮您寄出。当然，您也可自取愿望之瓶。
+					<br><br>我们的愿望：要让100万人在小楼许下愿望。
 				</div>
 			</div>
 		</div>
-		<div class="section-down"></div>
+
 		<div class="footer">
 			<div class="container">
 				<div class="media">
@@ -137,14 +124,6 @@
 		<script src="js/jquery.cart.js" type="text/javascript"></script>
 		<script src="js/jquery.flexslider.min.js"></script>
 		<script type="text/javascript">
-			function showgoods(catid) {
-				$('.newgoods .catalog .nav li').removeClass('current');
-				$('.newgoods .goods').hide();
-
-				$('.newgoods .catalog .nav #goodscat_' + catid).addClass('current');
-				$('.newgoods #goods_' + catid).show();
-			}
-
 			$(window).load(function() {
 
 				$('.weixin_qrcode').hover(function() {

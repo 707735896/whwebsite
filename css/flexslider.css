@@ -101,7 +101,7 @@ html[xmlns] .slides {
 }
 
 .flex-viewport {
-	max-height: 2000px;
+	max-height: 1069px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	transition: all 1s ease;
@@ -129,7 +129,7 @@ html[xmlns] .slides {
 	height: 39px;
 	margin: -20px 0 0;
 	display: block;
-	background: url(../img/bg_direction_nav.png) no-repeat 0 0;
+	background: url(../images/bg_direction_nav.png) no-repeat 0 0;
 	position: absolute;
 	top: 50%;
 	cursor: pointer;
