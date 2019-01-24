@@ -2,6 +2,8 @@
 	padding: 40px 65px;
 	width: 1170px;
 	background: #fff;
+	min-height: 500px;
+	margin-bottom: 60px;
 }
 
 .section .about .left {

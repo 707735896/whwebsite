@@ -228,12 +228,406 @@ a:hover {
 }
 
 .flexslider {
-	margin: 0;
+	margin: 0 0 30px 0;
 	border: 0;
 }
 
 .context {
 	padding: 40px 65px;
 	width: 1170px;
+	min-height: 500px;
 	background: #fff;
+	margin-bottom: 60px;
+}
+
+#map_canvas label {
+	max-width: none;
+}
+
+#map_canvas button {
+	margin: 0
+}
+
+
+/*shop.css*/
+
+.section .title {
+	height: 28px;
+	margin-bottom: 15px;
+	border-bottom: 1px dashed #999;
+	color: #999;
+	font-size: 20px;
+}
+
+.section .shopinfo {
+	display: inline-block;
+	width: 100%;
+	min-height: 1000px;
+	margin-bottom: 60px;
+}
+
+.section .nav {
+	float: right;
+	width: 320px;
+	height: 700px;
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #ccc
+}
+
+.section .content {
+	float: left;
+	width: 820px;
+}
+
+.section .map {
+	width: 820px;
+	height: 520px;
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #ccc
+}
+
+.section .map #map_canvas {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+
+.section .shop {
+	width: 820px;
+	height: 750px;
+	margin-top: 15px;
+	background: #fff;
+	padding: 15px;
+	border: 1px solid #ccc
+}
+
+.section .shop #slider {
+	width: 790px;
+	border: 0
+}
+
+.section .shop #slider li {
+	display: block;
+	width: 790px;
+	text-align: center;
+}
+
+.section .shop #slider li img {
+	vertical-align: middle;
+	max-height: 530px;
+}
+
+.section .shop #slider .flex-caption {
+	width: 790px;
+	height: 40px;
+	padding: 0 5px;
+	left: 0;
+	line-height: 40px;
+	text-align: left;
+	bottom: 0;
+	background: rgba(0, 0, 0, .4);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+	font-size: 14px;
+}
+
+.section .shop #carousel {
+	width: 788px;
+	height: 182px;
+	margin-bottom: 10px!important;
+	text-align: center;
+	border: 1px solid #ccc
+}
+
+.section .shop #carousel li {
+	width: 180px;
+	height: 180px;
+	margin-right: 5px;
+}
+
+.section .shop #carousel img {
+	display: block;
+	width: 180px;
+	height: 180px;
+	opacity: .5;
+	cursor: pointer;
+}
+
+.section .shop #carousel img:hover {
+	opacity: 1;
+}
+
+.section .shop #carousel .flex-active-slide img {
+	opacity: 1;
+	cursor: default;
+}
+
+.section .nav .subject {
+	height: 25px;
+	color: #999;
+	padding: 5px 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.section .nav .search {
+	height: 50px;
+	padding: 10px;
+}
+
+.section .nav .search .ctrl {
+	width: 280px;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	background: url("../images/search.png")
+}
+
+.section .nav .search input[type="text"] {
+	width: 238px;
+	height: 28px;
+	line-height: 28px;
+	margin: 1px;
+	border: 0;
+	padding: 2px 5px
+}
+
+.section .nav .search .btn {
+	z-index: 10;
+	float: right;
+	width: 40px;
+	height: 30px;
+	margin-left: 240px;
+	margin-top: -30px;
+	cursor: pointer;
+	background: none;
+}
+
+.section .nav .line {
+	margin: 15px 0;
+	border-bottom: 1px dashed #999;
+}
+
+.section .nav .shops {
+	height: 580px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.section .nav .item {
+	padding: 10px 15px;
+	margin: 5px;
+	color: #999;
+	font-size: 13px;
+}
+
+.section .nav .item:hover {
+	background: #f0f0f0;
+	cursor: pointer;
+}
+
+.section .nav .active {
+	background: #f0f0f0;
+}
+
+.section .nav .item .name {
+	height: 25px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 5px;
+}
+
+.section .nav .item .address {
+	min-height: 20px;
+}
+
+.section .nav .item .postcode {
+	height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.section .nav .item .phone {
+	height: 20px;
+}
+
+
+/*job.css*/
+
+.section .job-logo {
+	display: inline-block;
+	padding: 0;
+	width: 1170px;
+	min-height: 100px;
+}
+
+.section .job-desc {
+	margin-top: 10px;
+	margin-bottom: 60px;
+	padding: 20px 15px;
+	width: 1170px;
+	min-height: 950px;
+	background: #fff;
+}
+
+.section .job-desc .title {
+	color: #fcc534;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 20px;
+	font-size: 20px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.section .job-desc .title a {
+	color: #fcc534;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.section .job-desc .title a:hover {
+	color: #fff;
+	background: #fcc534;
+	text-decoration: none;
+}
+
+.section .job-desc .info {
+	color: #fcc534;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 20px;
+	font-size: 16px;
+}
+
+.section .job-desc .content {
+	margin: 5px 20px;
+	padding: 20px;
+	background: #fcc534;
+	color: #fff
+}
+
+
+/*about.css*/
+
+.section .about {
+	padding: 40px 65px;
+	width: 1170px;
+	background: #fff;
+	min-height: 500px;
+	margin-bottom: 60px;
+}
+
+.section .about .left {
+	float: left;
+}
+
+.section .about .right {
+	float: right;
+}
+
+.section .about .about-video {
+	margin-bottom: 20px;
+	width: 1040px;
+	height: 480px;
+	background: #5EBBEB;
+}
+
+.section .about .about-video .video {
+	float: left;
+	width: 640px;
+	height: 480px;
+	padding: 20px;
+}
+
+.section .about .about-video .desc {
+	float: right;
+	width: 400px;
+	height: 480px;
+}
+
+.section .about .about-desc {
+	margin-top: 30px;
+	width: 1040px;
+	height: 600px;
+}
+
+.section .about .about-desc .desc {
+	float: left;
+	width: 355px;
+	height: 600px;
+}
+
+.section .about .about-desc .images {
+	float: right;
+	width: 675px;
+	height: 600px;
+}
+
+.section .about .about-desc .images .line1 {
+	width: 675px;
+	height: 306px;
+}
+
+.section .about .about-desc .images .line2 {
+	margin-top: 10px;
+	width: 675px;
+	height: 280px;
+}
+
+.section .about .about-desc .images .line3 {
+	margin-top: 10px;
+	width: 675px;
+	height: 150px;
+}
+
+.section .about .about-contact {
+	margin-top: 10px;
+	width: 1040px;
+	height: 244px;
+}
+
+.section .about .about-contact .contact {
+	float: left;
+	width: 355px;
+	height: 244px;
+}
+
+.section .about .about-contact .images {
+	float: right;
+	width: 675px;
+	height: 244px;
+}
+
+.section .about .about-timeline {
+	margin-top: 10px;
+	width: 1040px;
+	height: 196px;
+}
+
+.tabbox ul {
+	list-style: none;
+	display: table;
+	margin-left: 330px;
+}
+
+.tabbox ul li {
+	float: left;
+	width: 100px;
+	line-height: 30px;
+	margin-right: -1px;
+	cursor: pointer;
+}
+
+.tabbox ul li.active {
+	color: #fcc534;
+}
+
+.tabbox .content>div {
+	display: none;
+}
+
+.tabbox .content>div.active {
+	display: block;
 }

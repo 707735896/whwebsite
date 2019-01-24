@@ -1,6 +1,6 @@
 .section .title {height:28px; margin-bottom:15px; border-bottom:1px dashed #999; color:#999; font-size:20px;}
 
-.section .shopinfo {display:inline-block; width:100%; min-height:1000px;}
+.section .shopinfo {display:inline-block; width:100%; min-height:1000px;margin-bottom: 60px;}
 .section .nav {float:right; width:320px; height:700px; background:#fff; padding:10px; border:1px solid #ccc}
 .section .content {float:left; width:820px;}
 
