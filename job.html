@@ -133,7 +133,9 @@
 				</div>
 			</div>
 		</div>
-
+		<div class="actGotop">
+			<a href="javascript:;" title="返回顶部"></a>
+		</div>
 		<link href="css/font-awesome.min.css" rel="stylesheet">
 		<div class="footer">
 			<div class="container">
@@ -169,6 +171,20 @@
 						}
 					</style>
 					<script>
+						$(window).scroll(function() {
+							if($(window).scrollTop() >= 100) {
+								$('.actGotop').fadeIn(300);
+							} else {
+								$('.actGotop').fadeOut(300);
+							}
+						});
+
+						$('.actGotop').click(function() {
+
+							$('html,body').animate({
+								scrollTop: '0px'
+							}, 800);
+						});
 						$(function() {
 							$('.weixin_qrcode').hover(function() {
 								$('.weixin-pop').slideDown();

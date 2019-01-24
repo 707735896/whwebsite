@@ -132,10 +132,26 @@
 					&nbsp;&nbsp;
 				</div>
 			</div>
+			
 		</div>
 		<script src="js/jquery.min.js" type="text/javascript"></script>
 		<script src="js/jquery.flexslider.min.js"></script>
 		<script type="text/javascript">
+			$(window).scroll(function() {
+				if($(window).scrollTop() >= 100) {
+					$('.actGotop').fadeIn(300);
+				} else {
+					$('.actGotop').fadeOut(300);
+				}
+			});
+
+			$('.actGotop').click(function() {
+
+				$('html,body').animate({
+					scrollTop: '0px'
+				}, 800);
+			});
+			
 			$(window).load(function() {
 
 				$('.weixin_qrcode').hover(function() {
