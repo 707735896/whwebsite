@@ -168,7 +168,7 @@ a:hover {
 .section {
 	min-height: 700px;
 	padding: 20px 0 50px 0;
-	background-color: #fcc534;
+	background-color: #fef6e1;
 }
 
 .section-up {
@@ -387,7 +387,7 @@ a:hover {
 	width: 100%;
 	height: 15px;
 	margin-top: 15px;
-	border-top: 1px dashed #fff;
+	border-top: 1px dashed #616669;
 }
 
 .section .newshop .title span {
@@ -431,7 +431,7 @@ a:hover {
 }
 
 .section .newshop .shop span {
-	color: #fff;
+	color: #616669;
 	display: block;
 	margin-top: 15px;
 	text-align: left;
@@ -441,7 +441,7 @@ a:hover {
 
 .section .newshop .shop span:hover {
 	cursor: pointer;
-	color: #e1e1e1;
+	color: #616669;
 }
 
 .section .newshop .more {

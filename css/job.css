@@ -15,7 +15,7 @@
 }
 
 .section .job-desc .title {
-	color: #fcc534;
+	color: #616669;
 	height: 40px;
 	line-height: 40px;
 	text-indent: 20px;
@@ -24,19 +24,19 @@
 }
 
 .section .job-desc .title a {
-	color: #fcc534;
+	color: #616669;
 	text-decoration: none;
 	font-size: 14px;
 }
 
 .section .job-desc .title a:hover {
-	color: #fff;
-	background: #fcc534;
+	color: #616669;
+	background: #fef6e1;
 	text-decoration: none;
 }
 
 .section .job-desc .info {
-	color: #fcc534;
+	color: #616669;
 	height: 35px;
 	line-height: 35px;
 	text-indent: 20px;
@@ -46,6 +46,6 @@
 .section .job-desc .content {
 	margin: 5px 20px;
 	padding: 20px;
-	background: #fcc534;
-	color: #fff
+	background: #fef6e1;
+	color: #616669
 }
