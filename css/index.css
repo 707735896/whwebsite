@@ -38,7 +38,7 @@ a:hover {
 
 .header {
 	padding: 15px 0 10px 0;
-	background-color: #fff;
+	background-color: #fcc534;
 }
 
 .header .logo {
@@ -52,7 +52,7 @@ a:hover {
 .header .top-nav {
 	position: relative;
 	/* margin-left: 60%; */
-	color: #fcc534;
+	color: #fff;
 	left: 60px;
 	bottom: 15px;
 	font-size: 13px;
@@ -141,16 +141,16 @@ a:hover {
 }
 
 .header .menu li a {
-	color: #727272;
+	color: #fff;
 }
 
 .header .menu li a:hover {
 	cursor: pointer;
-	color: #fcc534 !important;
+	color: #727272 !important;
 }
 
 .active {
-	color: #fcc534 !important;
+	color: #727272 !important;
 }
 
 .bannar {
@@ -458,8 +458,8 @@ a:hover {
 
 .footer {
 	height: 220px;
-	background-color: #fff;
-	color: #fcc534;
+	background-color: #fcc534;
+	color: #fff;
 	padding: 50px 0;
 }
 
@@ -473,17 +473,17 @@ a:hover {
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
-	border-top: 1px dashed #fcc534;
-	border-bottom: 1px dashed #fcc534;
+	border-top: 1px dashed #fff;
+	border-bottom: 1px dashed #fff;
 }
 
 .footer a {
-	color: #fcc534;
+	color: #fff;
 	text-decoration: none;
 }
 
 .footer a:hover {
-	color: #fcc534;
+	color: #fff;
 	background: none;
 	text-decoration: underline;
 }
