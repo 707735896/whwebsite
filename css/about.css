@@ -96,13 +96,15 @@
 .tabbox ul {
 	list-style: none;
 	display: table;
-	margin-left: 330px;
+	margin: auto;
+	width: 1170px;
+	height: 48px;
 }
 
 .tabbox ul li {
 	float: left;
 	width: 100px;
-	line-height: 30px;
+	line-height: 48px;
 	margin-right: -1px;
 	cursor: pointer;
 }
