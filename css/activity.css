@@ -131,6 +131,7 @@
 			margin: 0 auto;
 			width: 1170px;
 			height: 48px;
+			padding-inline-start: 0px;
 		}
 		
 		.tabbox ul li {

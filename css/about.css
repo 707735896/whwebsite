@@ -96,7 +96,7 @@
 .tabbox ul {
 	list-style: none;
 	display: table;
-	margin: auto;
+	margin: 0 auto;
 	width: 1170px;
 	height: 48px;
 }
